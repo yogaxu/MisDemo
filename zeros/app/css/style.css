@@ -1,0 +1,48 @@
+/*头部导航滑动*/
+.my-pagination .swiper-pagination-bullet {text-align: center;border-radius: 0;opacity: 1; width: 33.33%; height: 50px; line-height: 50px; background:#fff; border-bottom: 1px solid #eee; color: #999;}
+.my-pagination .swiper-pagination-bullet-active{color: #2bc6f6; border-bottom: 1px solid #2bc6f6;}
+/*报修*/
+.pagination ul li{height: 50px; line-height: 50px; text-align: center; width: 33.33%; float: left;border-bottom: 1px solid #eee;color: #999;}
+.pagination ul li a{color: #999;}
+.pagination ul li.active{border-bottom: 1px solid #2bc6f6;}
+.pagination ul li.active a{color: #2bc6f6;}
+.bx-edit{padding: 10px 0;}
+.bx-edit .input-group{width: 80%;margin: 0 auto; margin-bottom: 15px; clear: both;}
+.bx-edit .input-group label{width: 32%; overflow:hidden; float: left; text-align:right;  line-height: 40px; color: #666;}
+.bx-edit .input-group input,.bx-edit .input-group select{width: 68%; float: left; height: 40px; padding-left: 10px; border: 1px solid #ddd; outline:none;}
+.bx-edit .input-group p{line-height: 40px; color: #999;}
+#endTime{margin-left: 32%;}
+.bx-edit .input-group span.evaluate{padding-left: 32%; color: #2BC6F6; font-size: 0.8em;}
+.bx-edit .input-group textarea{width: 100%; padding: 10px; resize: none;border: 1px solid #ddd; outline:none; height: 100px;}
+.imgbox{display:inline-block;margin-top: 10px;position: relative;width: 75px;height: 75px;border: 1px solid #ddd;overflow: hidden; margin-right: 5px;}
+.imgbox span{position: absolute; right: 5px; top: 5px; display: none; cursor: pointer; width: 20px;}
+.imgbox span img{width: 100%;}
+.imgnum{left: 0px;top: 0px;margin: 0px;padding: 0px;}
+.bx-edit .input-group input[type="file"]{width: 75px; height: 75px; clear: both; opacity: 0; position: absolute;}
+.imgnum img.img1{width: 75px; height: 75px;}
+.imgnum img.img2{width: 100%;height: 75px;}
+.bx-edit .input-group span.tips{color: #2BC6F6; font-size: 0.8em;}
+.bx-edit .input-group input[type="submit"]{width: 100%; margin-bottom: 20px; background: #2BC6F6; color: #fff; border: 0px solid #000; height: 40px;}
+.dcl-list{padding: 10px 3%;}
+.dcl-list li{padding: 10px 0;border-bottom: 1px solid #eee}
+.dcl-list li .money{line-height: 30px; border-bottom: 1px dashed #eee; margin-bottom: 10px;}
+.dcl-list li .money p{float: left; color: #333; font-weight: bold;}
+.dcl-list li .money i{float: left; color: #333; font-weight: bold; font-style: normal;}
+.dcl-list li .money span{display: block; float: right; color: #2BC6F6; font-size: 0.8em;}
+.dcl-list li .detail p{float: left; color: #333; width: 80%;}
+.dcl-list li .detail p span{display: block; line-height: 25px;}
+.dcl-list li .detail .qx-btn{display: block; width: 20%; float: right;}
+.dcl-list li .detail .qx-btn button{width: 100%; height: 30px; color: #fff; background: #2BC6F6; border: none;}
+.dcl-list li .cz-time span{ line-height: 25px; color: #333; display: block;}
+.dcl-list li .cz-time i{display: block; font-style: normal; text-align: right; line-height: 30px; color: #999; font-size: 0.8em;}
+.bxhis-list{padding: 10px 3%;}
+.bxhis-list li{padding: 10px 0; border-bottom: 1px solid #eee;}
+.bxhis-list li .money{line-height: 30px;border-bottom: 1px dashed #eee; margin-bottom: 10px; padding-bottom: 10px;}
+.bxhis-list li .money p{ color: #333; font-weight: bold; float: left;}
+/*.bxhis-list li .money a{display: block; float: right; width:80px; height: 30px; text-align: center; line-height: 30px; color: #2BC6F6; border: 1px solid #2BC6F6; border-radius: 5px;}*/
+.bxhis-list li .detail p{color: #333; }
+.bxhis-list li .detail p span{display: block; line-height: 25px;}
+.bxhis-list li .cz-time{text-align: right; line-height: 25px; color: #999; font-size: 0.8em;}
+.bxhis-list li .cz-time span{display: block;}
+.bxhis-list li a.evaluate{border: 1px solid #2BC6F6; color: #2BC6F6; border-radius: 5px; display: block; float: right; width: 80px; height: 30px; line-height: 30px; text-align: center;}
+

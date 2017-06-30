@@ -1,0 +1,52 @@
+charset "utf-8";
+*{margin:0px; padding:0px;}
+body{position:relative; font-family:微软雅黑; font-weight: normal; color:#000; font-weight:normal; background:#fff; margin:0px; padding:0px;}
+input[type=button],input[type=submit],input[type=file],button {cursor:pointer; -webkit-appearance:none;}
+ul,li,dl,dt,dd,table,tr,td,h1,h2,h3,h4,h5,h6,p{list-style-type:none; margin:0px; padding:0px;}
+img{border:none;}
+a{text-decoration:none; color:#999; margin:0px; padding:0px;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+*,*:before,*:after {-webkit-box-sizing:border-box; box-sizing:border-box;}
+input[type="text"],input[type="password"]{
+-webkit-appearance: none; font-size: 0.9em;
+}
+textarea{
+-webkit-appearance: none; font-size: 0.9em;
+}
+select{
+-webkit-appearance: none; font-size: 0.9em; font-family: "microsoft yahei";
+}
+input[type="submit"]{font-size: 1em;}
+/*初始化样式结束*/
+::-webkit-input-placeholder{color:#999;}
+::-moz-placeholder{color:#999;}
+:-moz-placeholder{color:#999;}
+:-ms-input-placeholder{color:#999;}
+.password::-webkit-input-placeholder{color:#fff;}
+.password::-moz-placeholder{color:#fff;}
+.password:-moz-placeholder{color:#fff;}
+.password:-ms-input-placeholder{color:#fff;}
+/*头部*/
+.header{position: fixed; height: 50px; background: #2bc6f6; width: 100%; top: 0; z-index: 9;}
+.header p{text-align: center; color:#fff; line-height: 50px; font-size: 1.2em;}
+.header a {position: absolute; left: 10px; top: 10px; width: 30px; height: 30px;}
+/*底部*/
+.footer{position: fixed; height: 50px; bottom: 0; width: 100%; border-top: 1px solid #eeeeee; background: #fff; z-index: 9;}
+.footer ul{clear: both;}
+.footer ul li{float: left; width: 25%; text-align: center; display: block;}
+.footer ul li img{display: block; margin: 0 auto; margin-top: 8px; width: 20px; height: 20px;}
+.footer ul li span{display: block; text-align: center; font-size: 0.5em; padding-top: 3px;}
+.footer ul li span.active{color: #00a3ff;}
+.contain{margin-top: 50px; margin-bottom: 50px; background: #ecedef;}
+.bg-white{background: #fff;}
+/*侧边栏*/
+.slide-box{position: fixed; top: 50px; left: 0; width: 50%; height: 100%; background: #51A2F1; z-index: 10; display: none;}
+/*弹框*/
+.tip-bg{position: fixed; width: 100%; height: 100%; background: url(../images/hei.png); z-index: 100; display: none;}
+.tip-bg .tip-box{width: 80%; height: 200px; position: absolute; z-index: 101; left: 50%; margin-left: -40%; top: 25%; background: #fff; border-radius: 5px;}
+.tip-bg .tip-box p{text-align: center; line-height: 150px;}
+.tip-bg .tip-box a{height: 50px; display: block; line-height: 50px; text-align: center; border-top: 1px solid #ddd;}
+b.w4{font-weight: normal;width: 4em; display: inline-block;text-align: justify; text-align-last: justify;text-justify:inter-ideograph;}
+b{font-weight: normal;display: inline-block;}
+b.w5{width: 5em;display: inline-block;}
